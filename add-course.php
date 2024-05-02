@@ -4,7 +4,7 @@ include('includes/dbconnection.php');
 if (strlen($_SESSION['aid']==0)) {
   header('location:logout.php');
   } else{
-
+// demo comment
 if(isset($_POST['submit'])){
 	
 $cshortname=$_POST['course-short'];
